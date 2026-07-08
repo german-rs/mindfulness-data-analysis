@@ -20,11 +20,13 @@ dist/
 # Jupyter Notebooks
 .ipynb_checkpoints/
 
-# Datos (ajusta según si quieres versionar los datos crudos o no)
-data/raw/*
-!data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
+# Datos: se versionan porque el dataset es CC0 y liviano (<50kB)
+# Si en el futuro agregas datasets grandes o con restricciones de licencia,
+# vuelve a ignorar esa carpeta específica.
+#data/raw/*
+#!data/raw/.gitkeep
+#data/processed/*
+#!data/processed/.gitkeep
 
 # Outputs generados
 outputs/figures/*
